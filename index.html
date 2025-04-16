@@ -9,10 +9,10 @@
 <body>
     <H1> Formulario Calculo</H1>
     <!--implementamos un formulario-->
-    <form action="" name="formulaerio" method="post">
+    <form action="" name="formulario" method="post">
         <div>
             <label for="nota1">Ingrese la primera nota</label>  <!--Arguento for para que se implemente una marcacion-->
-            <input type="text" name="nota1" id="nota1"  placeholder="Ingrese la nota 1" required> 
+            <input type="text" name="nota1" id="nota1"  placeholder="Ingrese la nota 1"> 
              <!--id. permite enlazar, requiered permite que sea obligatorio llenar los datos  -->      
         </div>
         <div>
@@ -22,7 +22,41 @@
         <div>
             <input type="submit" value="Enviar" onclick="procesarDatos()">
         </div>
+        <div>
+            <label for="num1 ">ingrese el primer numero</label>
+            <input type="number" name="num1" id="num1" placeholder="Ingresar un numero">
+        </div>
+        <div>
+            <label for="num2 ">ingrese el segundo numero</label>
+            <input type="number" name="num2" id="num2" placeholder="Ingresar el segundo numero" >
+        </div>
+        <div>
+            <label for="num3 ">ingrese el tercer numero</label>
+            <input type="number" name="num3" id="num3" placeholder="Ingresar el tercero numero" >
+        </div>
+        <div>
+            <label for="num4 ">ingrese el cuarto numero</label>
+            <input type="number" name="num4" id="num4" placeholder="Ingresar el cuarto numero" >
+        </div>
+         <div>
+            <label for="num5 ">ingrese el quito numero</label>
+            <input type="number" name="num5" id="num5" placeholder="Ingresar el quinto numero" >
+        </div>
+        <div>
+            <input type="submit" value="Enviar" onclick="nummayor()">
+        </div>
+        
 
+    </form>
+
+    <form action="" method="get">
+        <div>
+            <label for="num">Ingrese un numero</label>
+            <input type="number" name="num" id="num" placeholder="Ingrese un numero">
+        </div>
+        <div>
+            <input type="submit" value="Enviar" onclick="parimpar()">
+        </div>
     </form>
     <script src="javascrip/formulario.js"> 
 
