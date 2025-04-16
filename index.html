@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de formularios JS</title>
+
+</head>
+<body>
+    <H1> Formulario Calculo</H1>
+    <!--implementamos un formulario-->
+    <form action="" name="formulaerio" method="post">
+        <div>
+            <label for="nota1">Ingrese la primera nota</label>  <!--Arguento for para que se implemente una marcacion-->
+            <input type="text" name="nota1" id="nota1"  placeholder="Ingrese la nota 1" required> 
+             <!--id. permite enlazar, requiered permite que sea obligatorio llenar los datos  -->      
+        </div>
+        <div>
+            <label for="nota2">Ingrese la nota 2</label>
+            <input type="number" name="nota2" id="nota2" placeholder="Ingrese la segunda nota"> 
+        </div>
+        <div>
+            <input type="submit" value="Enviar" onclick="procesarDatos()">
+        </div>
+
+    </form>
+    <script src="javascrip/formulario.js"> 
+
+    </script>
+</body>
+</html>
